@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sticky-cal-ui/static/css/main.e6c13ad2.css",
-    "main.js": "/sticky-cal-ui/static/js/main.d29334da.js",
+    "main.js": "/sticky-cal-ui/static/js/main.80cfc0a8.js",
     "static/js/453.ba45367e.chunk.js": "/sticky-cal-ui/static/js/453.ba45367e.chunk.js",
     "index.html": "/sticky-cal-ui/index.html",
     "main.e6c13ad2.css.map": "/sticky-cal-ui/static/css/main.e6c13ad2.css.map",
-    "main.d29334da.js.map": "/sticky-cal-ui/static/js/main.d29334da.js.map",
+    "main.80cfc0a8.js.map": "/sticky-cal-ui/static/js/main.80cfc0a8.js.map",
     "453.ba45367e.chunk.js.map": "/sticky-cal-ui/static/js/453.ba45367e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d29334da.js"
+    "static/js/main.80cfc0a8.js"
   ]
 }
