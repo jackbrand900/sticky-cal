@@ -14,13 +14,13 @@ const DayCell = ({ date, sticker, onClick }) => {
       onClick={onClick}
       style={{
         boxSizing: 'border-box', 
-        border: isEmpty ? 'none' : isToday ? '2px solid darkgreen' : '1px solid #ddd',
+        border: isEmpty ? 'none' : isToday ? '2px solid #ddd' : '1px solid #ddd',
         borderRadius: '6px',
         width: '100%',
         aspectRatio: '1 / 1',
         textAlign: 'center',
         position: 'relative',
-        backgroundColor: isEmpty ? 'transparent' : '#fff',
+        backgroundColor: isEmpty ? 'transparent' : isToday ? 'lightgrey' : '#fff',
         cursor: isEmpty ? 'default' : 'pointer'
       }}
     >

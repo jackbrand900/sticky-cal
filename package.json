@@ -2,7 +2,7 @@
   "name": "sticky-cal-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jackbrand900.github.io/sticky-cal",
+  "homepage": "https://jackbrand900.github.io/sticky-cal-ui",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -18,8 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
-  },
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --repo=https://github.com/jackbrand900/sticky-cal-ui.git"
+  },  
   "eslintConfig": {
     "extends": [
       "react-app",
