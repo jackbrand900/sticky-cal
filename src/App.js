@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CalendarGrid from './components/CalendarGrid';
 
-const DEFAULT_STICKER = "/stickers/link-dance.png";
+const DEFAULT_STICKER = process.env.PUBLIC_URL + "/stickers/link-dance.png";
 
 function App() {
   const [stickers, setStickers] = useState(() => {
